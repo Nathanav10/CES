@@ -7,23 +7,12 @@ export class ExchangeOperator {
 
     constructor(conversionService: Converter) {
         this.converter = ConverterFactory.getConverter(conversionService);
-        // TODO: get commission in realtime
-        this.commission = 5;
     }
 
-    Exchange(amount:number, base:string, target:string): Promise<string> {
+    Exchange(amount: number, base: string, target: string): Promise<number> {
         // TODO: catch
         return this.converter.Convert(amount, base, target).then(convertedAmount => {
-            return `From amount: ${amount}
-From currency: ${base}
-To currency: ${target}
-Commission: ${this.commission}%
-Amount before commission: ${convertedAmount}
-Amount: ${convertedAmount / 100.0 * (100 - this.commission)}\n`
-        });
-    }
-
-    PrintReceipt() {
-
+            return convertedAmount;
+        })
     }
 }

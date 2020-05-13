@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc7093c-2be7-436b-b637-fd4e264f9367" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Connector/db-connector.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Connector/mongo-connector.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/converter-enum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/converter-enum.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/converter-enum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/converter-interface.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/converter-interface.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/converter-interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/coverter-factory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/coverter-factory.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/coverter-factory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/exchange-rates-converter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/exchange-rates-converter.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Conversion/exchange-rates-converter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exchange/exchange-operator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/config-conroller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/exchange-controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/loan-controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.js" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,63 +31,65 @@
     <session id="-1732056899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="js" value="5" />
-          <entry key="json" value="4" />
-          <entry key="ts" value="30" />
+          <entry key="json" value="6" />
+          <entry key="ts" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="3" />
+          <entry key="JSON" value="5" />
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="TypeScript" value="30" />
+          <entry key="TypeScript" value="38" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="JavaScript Console" value="108" />
           <entry key="gitignore" value="18" />
-          <entry key="json" value="2" />
-          <entry key="ts" value="2068" />
+          <entry key="json" value="3" />
+          <entry key="ts" value="4429" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="108" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="TypeScript" value="2068" />
+          <entry key="TypeScript" value="4429" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="8" />
+          <entry key="TypeScriptServerServiceImpl" value="13" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="266">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -101,11 +97,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/config-conroller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/loan-controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,17 +133,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Connector/mongo-connector.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="34">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#1237#1285#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conversion/exchange-rates-converter.ts">
+        <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -143,6 +167,7 @@
     <findStrings>
       <find>axios</find>
       <find>exchange(</find>
+      <find>loan</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,14 +177,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/Exchange/exchange-operator.ts" />
         <option value="$PROJECT_DIR$/Connector/dbConnector.ts" />
         <option value="$PROJECT_DIR$/Conversion/exchange-rates-converter.ts" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Connector/db-connector.ts" />
         <option value="$PROJECT_DIR$/Connector/mongo-connector.ts" />
+        <option value="$PROJECT_DIR$/Controller/loan-controller.ts" />
+        <option value="$PROJECT_DIR$/Exchange/exchange-operator.ts" />
+        <option value="$PROJECT_DIR$/Controller/exchange-controller.ts" />
+        <option value="$PROJECT_DIR$/Controller/config-conroller.ts" />
         <option value="$PROJECT_DIR$/main.ts" />
-        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -194,6 +222,11 @@
             <path>
               <item name="CES" type="b2602c69:ProjectViewProjectNode" />
               <item name="CES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CES" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CES" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,12 +292,17 @@
       <workItem from="1589359144670" duration="1575000" />
       <workItem from="1589360961620" duration="1790000" />
       <workItem from="1589362772065" duration="1792000" />
-      <workItem from="1589364581844" duration="694000" />
+      <workItem from="1589364581844" duration="1791000" />
+      <workItem from="1589366393463" duration="1791000" />
+      <workItem from="1589368203875" duration="1850000" />
+      <workItem from="1589370074351" duration="1793000" />
+      <workItem from="1589371903104" duration="1791000" />
+      <workItem from="1589373717891" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13087000" />
+    <option name="totallyTimeSpent" value="21459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,7 +317,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24244833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24244833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,7 +330,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3291815" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -311,6 +349,10 @@
         <option value="$PROJECT_DIR$/Connector/db-connector.js.map" />
         <option value="$PROJECT_DIR$/Connector/mongo-connector.js" />
         <option value="$PROJECT_DIR$/Connector/db-connector.js" />
+        <option value="$PROJECT_DIR$/Controller/loan-controller.js" />
+        <option value="$PROJECT_DIR$/Controller/loan-controller.js.map" />
+        <option value="$PROJECT_DIR$/Controller/exchange-controller.js.map" />
+        <option value="$PROJECT_DIR$/Controller/exchange-controller.js" />
       </list>
     </option>
   </component>
@@ -321,9 +363,44 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/main.ts</url>
-          <line>25</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
+          <line>8</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
+          <line>43</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
+          <line>72</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
+          <line>35</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
+          <line>7</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
+          <line>18</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Controller/exchange-controller.ts</url>
+          <line>6</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Controller/exchange-controller.ts</url>
+          <line>9</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -356,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conversion/converter-enum.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -377,27 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Connector/db-connector.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conversion/exchange-rates-converter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -405,27 +454,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conversion/exchange-rates-converter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Connector/db-connector.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/loan-controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Connector/mongo-connector.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#1237#1285#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/config-conroller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="266">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
