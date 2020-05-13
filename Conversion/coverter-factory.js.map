@@ -1,0 +1,1 @@
+{"version":3,"file":"coverter-factory.js","sourceRoot":"","sources":["coverter-factory.ts"],"names":[],"mappings":";;AAAA,yEAAiE;AACjE,qDAA2C;AAE3C,MAAa,gBAAgB;IAEzB,MAAM,CAAC,YAAY,CAAC,SAAoB;QACpC,IAAI,SAAS,IAAI,0BAAS,CAAC,aAAa,EAAE;YACtC,OAAO,IAAI,iDAAsB,EAAE,CAAC;SACvC;QACD,MAAM,IAAI,KAAK,CAAC,4BAA4B,CAAC,CAAA;IACjD,CAAC;CACJ;AARD,4CAQC"}
