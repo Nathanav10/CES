@@ -1,18 +1,20 @@
 import * as express from "express"
-import {ExchangeOperator} from "./Exchange/exchange-operator";
-import {Converter} from "./Conversion/converter-enum";
-import {MongoConnector} from "./Connector/mongo-connector";
 import * as bodyParser from "body-parser"
 import {LoanController} from "./Controller/loan-controller";
 import {ExchangeController} from "./Controller/exchange-controller";
 import {ConfigConroller} from "./Controller/config-conroller";
+import {Authenticate} from "./middleware/authentication-middleware";
+import {EndLoanPermissions, ExchangePermissions, LoanPermissions} from "./middleware/permission-middleware";
 
 let app = express();
+
 app.use(bodyParser.json());
+app.use(Authenticate);
+app.get('/exchange', ExchangePermissions);
+app.post('/loan', LoanPermissions);
+app.post('/endLoan', EndLoanPermissions);
 
 // TODO: move data to different git
-// TODO: change to post
-// TODO: move to controllers
 let exchangeController = new ExchangeController();
 let configController = new ConfigConroller();
 let loanController = new LoanController();

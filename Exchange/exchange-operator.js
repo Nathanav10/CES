@@ -6,7 +6,6 @@ class ExchangeOperator {
         this.converter = coverter_factory_1.ConverterFactory.getConverter(conversionService);
     }
     Exchange(amount, base, target) {
-        // TODO: catch
         return this.converter.Convert(amount, base, target).then(convertedAmount => {
             return convertedAmount;
         });

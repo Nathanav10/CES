@@ -10,6 +10,9 @@ export class MongoConnector implements DbConnector {
             let dbo = db.db("config");
             return dbo.collection("parameters").updateOne({_id: param}, {$set: {value: value}}, {upsert: false}).then(res => {
                 // TODO: return based on documents changed
+                if(res.result.n==0){
+                    return false;
+                }
                 return true;
             }).catch(err => {
                 return false;
@@ -32,7 +35,6 @@ export class MongoConnector implements DbConnector {
         return MongoClient.connect(this.dbUrl).then(db => {
             let dbo = db.db("config");
             return dbo.collection("parameters").findOne({_id: param}).then(param => {
-                // TODO: return based on documents changed
                 return param.value;
             });
         });
@@ -50,6 +52,15 @@ export class MongoConnector implements DbConnector {
             let dbo = db.db("loans");
             return dbo.collection("loans").findOne({_id: loanId}).then(loan => {
                 return loan;
+            });
+        });
+    }
+
+    GetClientPermission(clientId: string): Promise<string[]> {
+        return MongoClient.connect(this.dbUrl).then(db => {
+            let dbo = db.db("permissions");
+            return dbo.collection("stores").findOne({_id: clientId}).then(stores => {
+                return stores.permissions;
             });
         });
     }

@@ -10,11 +10,11 @@ class ExchangeController {
         mc.GetParamValue("baseCommission").then(commission => {
             exchangeOperator.Exchange(req.query.amount, req.query.base, req.query.target).then(convertedAmount => {
                 res.send(`From amount: ${req.query.amount}
-From currency: ${req.query.base}
-To currency: ${req.query.target}
-Commission: ${commission}%
-Amount before commission: ${convertedAmount}
-Amount: ${convertedAmount / 100.0 * (100 - commission)}\n`);
+                    From currency: ${req.query.base}
+                    To currency: ${req.query.target}
+                    Commission: ${commission}%
+                    Amount before commission: ${convertedAmount}
+                    Amount: ${convertedAmount / 100.0 * (100 - commission)}\n`);
             });
         }).catch(err => {
             res.status(400).send({

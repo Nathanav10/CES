@@ -20,7 +20,7 @@ class ExchangeRatesConverter {
                 // TODO: use _.get
                 return res.data['rates'][target.toUpperCase()] * amount;
             }).catch(err => {
-                if (err.response.status) {
+                if (err.response && err.response.status) {
                     throw new Error("Currency is unknown");
                 }
                 throw new Error("Conversion process failed");

@@ -11,21 +11,23 @@ export class LoanController {
         let mc = new MongoConnector();
         mc.GetParamValue("baseCommission").then(baseCommission => {
             let newLoan = {
+                _id: sha1(moment().unix()),
                 amount: req.body.amount,
                 base: req.body.base,
                 // can be added to configurable parameters to be fetched
                 dailyCommission: 0.5,
                 baseCommission: baseCommission,
                 startDate: moment().unix(),
-                _id: sha1(moment().unix())
+                clientId: req.headers.clientid
             };
             mc.InsertLoan(newLoan).then(doc => {
                 let receipt = `Loan details:
-Loan amount: ${newLoan.amount}
-Loan currency: ${newLoan.base}
-Base commission: ${newLoan.baseCommission}
-Daily commission: ${newLoan.dailyCommission}
-Loan start: ${moment.unix(newLoan.startDate).format("DD/MM/yyyy")}`;
+                    Loan amount: ${newLoan.amount}
+                    Loan currency: ${newLoan.base}
+                    Base commission: ${newLoan.baseCommission}
+                    Daily commission: ${newLoan.dailyCommission}
+                    Loan start: ${moment.unix(newLoan.startDate).format("DD/MM/yyyy")}
+                    Loan Id: ${newLoan._id}`;
                 res.send(receipt);
             })
         }).catch(err => {
@@ -38,6 +40,12 @@ Loan start: ${moment.unix(newLoan.startDate).format("DD/MM/yyyy")}`;
     EndLoan(req, res) {
         let mc = new MongoConnector();
         mc.GetLoan(req.body.loanId).then(loan => {
+            if (loan.endDate) {
+                return res.status(400).send("Loan already ended");
+            }
+            if (loan.clientId != req.headers.clientid) {
+                return res.status(401).send("Store unauthorized to end loan");
+            }
             let totalCommission = loan.baseCommission +
                 moment(new Date()).diff(moment.unix(loan.startDate), "days") * loan.dailyCommission;
             let exchangeOperator = new ExchangeOperator(Converter.ExchangeRates);
