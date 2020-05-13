@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc7093c-2be7-436b-b637-fd4e264f9367" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/config-conroller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/exchange-controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/loan-controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connector/db-connector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/db-connector.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.js" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/config-conroller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/config-conroller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/loan-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/loan-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/loan-controller.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/loan-controller.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/loan-controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/loan-controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,15 +27,15 @@
     <session id="-1732056899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="5" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,7 +43,7 @@
           <entry key="gitignore" value="2" />
           <entry key="js" value="5" />
           <entry key="json" value="6" />
-          <entry key="ts" value="38" />
+          <entry key="ts" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,41 +51,41 @@
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="TypeScript" value="38" />
+          <entry key="TypeScript" value="39" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="JavaScript Console" value="108" />
+          <entry key="JavaScript Console" value="374" />
           <entry key="gitignore" value="18" />
           <entry key="json" value="3" />
-          <entry key="ts" value="4429" />
+          <entry key="ts" value="5337" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="108" />
+          <entry key="JavaScript" value="374" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="TypeScript" value="4429" />
+          <entry key="TypeScript" value="5337" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="13" />
+          <entry key="TypeScriptServerServiceImpl" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="198">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -98,31 +94,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/config-conroller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/loan-controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="71">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
               </folding>
@@ -131,23 +106,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Connector/mongo-connector.ts">
+        <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="68">
+              <caret line="6" column="77" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="77" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
-                <element signature="e#1237#1285#0" />
+                <element signature="e#0#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Connector/mongo-connector.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="128">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -168,6 +145,9 @@
       <find>axios</find>
       <find>exchange(</find>
       <find>loan</find>
+      <find>req</find>
+      <find>unix</find>
+      <find>updateOne</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,12 +162,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Connector/db-connector.ts" />
-        <option value="$PROJECT_DIR$/Connector/mongo-connector.ts" />
-        <option value="$PROJECT_DIR$/Controller/loan-controller.ts" />
         <option value="$PROJECT_DIR$/Exchange/exchange-operator.ts" />
         <option value="$PROJECT_DIR$/Controller/exchange-controller.ts" />
         <option value="$PROJECT_DIR$/Controller/config-conroller.ts" />
         <option value="$PROJECT_DIR$/main.ts" />
+        <option value="$PROJECT_DIR$/Controller/loan-controller.ts" />
+        <option value="$PROJECT_DIR$/Connector/mongo-connector.ts" />
       </list>
     </option>
   </component>
@@ -216,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,7 +213,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,12 +277,13 @@
       <workItem from="1589368203875" duration="1850000" />
       <workItem from="1589370074351" duration="1793000" />
       <workItem from="1589371903104" duration="1791000" />
-      <workItem from="1589373717891" duration="50000" />
+      <workItem from="1589373717891" duration="1791000" />
+      <workItem from="1589375531089" duration="867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21459000" />
+    <option name="totallyTimeSpent" value="24067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,13 +298,13 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24244833" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49557522" visible="true" weight="0.24244833" />
+      <window_info id="Structure" order="1" sideWeight="0.50442475" side_tool="true" visible="true" weight="0.24244833" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39679715" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39679715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
@@ -353,6 +334,8 @@
         <option value="$PROJECT_DIR$/Controller/loan-controller.js.map" />
         <option value="$PROJECT_DIR$/Controller/exchange-controller.js.map" />
         <option value="$PROJECT_DIR$/Controller/exchange-controller.js" />
+        <option value="$PROJECT_DIR$/Controller/config-conroller.js" />
+        <option value="$PROJECT_DIR$/Controller/config-conroller.js.map" />
       </list>
     </option>
   </component>
@@ -368,28 +351,13 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
-          <line>43</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
-          <line>72</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
-          <line>35</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
-          <line>7</line>
+          <line>10</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
-          <line>18</line>
+          <line>21</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -401,6 +369,36 @@
           <url>file://$PROJECT_DIR$/Controller/exchange-controller.ts</url>
           <line>9</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
+          <line>44</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
+          <line>47</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Connector/mongo-connector.ts</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -482,20 +480,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/config-conroller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="77" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/loan-controller.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="71">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
           </folding>
@@ -504,35 +526,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Connector/mongo-connector.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="128">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#1237#1285#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/config-conroller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>

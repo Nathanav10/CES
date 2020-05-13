@@ -1,5 +1,5 @@
 interface DbConnector {
     dbUrl: String;
 
-    ConfigParameter(param: string, value: any): Promise<boolean>;
+    UpdateParameter(param: string, value: any): Promise<boolean>;
 }
