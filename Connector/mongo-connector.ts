@@ -9,8 +9,7 @@ export class MongoConnector implements DbConnector {
         return MongoClient.connect(this.dbUrl).then(db => {
             let dbo = db.db("config");
             return dbo.collection("parameters").updateOne({_id: param}, {$set: {value: value}}, {upsert: false}).then(res => {
-                // TODO: return based on documents changed
-                if(res.result.n==0){
+                if (res.result.n == 0) {
                     return false;
                 }
                 return true;

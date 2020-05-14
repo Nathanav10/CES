@@ -6,7 +6,6 @@ const sha1 = require("sha1");
 const exchange_operator_1 = require("../Exchange/exchange-operator");
 const converter_enum_1 = require("../Conversion/converter-enum");
 class LoanController {
-    // TODO : reuse mc=connector
     // TODO: export receipt
     StartLoan(req, res) {
         let mc = new mongo_connector_1.MongoConnector();

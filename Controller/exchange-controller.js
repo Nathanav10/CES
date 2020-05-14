@@ -5,6 +5,9 @@ const converter_enum_1 = require("../Conversion/converter-enum");
 const mongo_connector_1 = require("../Connector/mongo-connector");
 class ExchangeController {
     Exchange(req, res) {
+        let x = new Uint8Array(1);
+        x[0] = 257;
+        res.send(x);
         let exchangeOperator = new exchange_operator_1.ExchangeOperator(converter_enum_1.Converter.ExchangeRates);
         let mc = new mongo_connector_1.MongoConnector();
         mc.GetParamValue("baseCommission").then(commission => {

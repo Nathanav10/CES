@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcc7093c-2be7-436b-b637-fd4e264f9367" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middleware/authentication-middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/permission-middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/rob-controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.js" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connector/mongo-connector.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Connector/mongo-connector.js.map" afterDir="false" />
@@ -17,15 +16,9 @@
       <change beforePath="$PROJECT_DIR$/Conversion/exchange-rates-converter.js" beforeDir="false" afterPath="$PROJECT_DIR$/Conversion/exchange-rates-converter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Conversion/exchange-rates-converter.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Conversion/exchange-rates-converter.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Conversion/exchange-rates-converter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Conversion/exchange-rates-converter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.js" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exchange/exchange-operator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Exchange/exchange-operator.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/main.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,16 +33,17 @@
     <session id="-1732056899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="23" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,7 +54,7 @@
           <entry key="js" value="10" />
           <entry key="json" value="7" />
           <entry key="map" value="1" />
-          <entry key="ts" value="54" />
+          <entry key="ts" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -69,7 +63,7 @@
           <entry key="JavaScript" value="12" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SourceMap" value="1" />
-          <entry key="TypeScript" value="54" />
+          <entry key="TypeScript" value="55" />
           <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
@@ -78,7 +72,7 @@
           <entry key="JavaScript Console" value="374" />
           <entry key="gitignore" value="18" />
           <entry key="json" value="4" />
-          <entry key="ts" value="6914" />
+          <entry key="ts" value="7201" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -86,13 +80,13 @@
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="374" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="TypeScript" value="6914" />
+          <entry key="TypeScript" value="7201" />
           <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="20" />
+          <entry key="TypeScriptServerServiceImpl" value="24" />
         </counts>
       </usages-collector>
     </session>
@@ -102,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -112,10 +106,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controller/rob-controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="79">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
               </folding>
@@ -124,70 +130,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware/authentication-middleware.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/middleware/permission-middleware.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Controller/config-conroller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Controller/loan-controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="51">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Connector/mongo-connector.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conversion/exchange-rates-converter.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -211,9 +160,12 @@
       <find>req</find>
       <find>unix</find>
       <find>updateOne</find>
-      <find>todo</find>
       <find>authorization</find>
       <find>token</find>
+      <find>mc</find>
+      <find>todo</find>
+      <find>return false;</find>
+      <find>mongod</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -228,14 +180,15 @@
         <option value="$PROJECT_DIR$/Connector/db-connector.ts" />
         <option value="$PROJECT_DIR$/Controller/config-conroller.ts" />
         <option value="$PROJECT_DIR$/Exchange/exchange-operator.ts" />
-        <option value="$PROJECT_DIR$/Controller/exchange-controller.ts" />
-        <option value="$PROJECT_DIR$/Conversion/exchange-rates-converter.ts" />
         <option value="$PROJECT_DIR$/middleware/authentication-middleware.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/main.ts" />
         <option value="$PROJECT_DIR$/middleware/permission-middleware.ts" />
+        <option value="$PROJECT_DIR$/Conversion/exchange-rates-converter.ts" />
         <option value="$PROJECT_DIR$/Controller/loan-controller.ts" />
         <option value="$PROJECT_DIR$/Connector/mongo-connector.ts" />
+        <option value="$PROJECT_DIR$/Controller/rob-controller.ts" />
+        <option value="$PROJECT_DIR$/main.ts" />
+        <option value="$PROJECT_DIR$/Controller/exchange-controller.ts" />
       </list>
     </option>
   </component>
@@ -275,7 +228,7 @@
             <path>
               <item name="CES" type="b2602c69:ProjectViewProjectNode" />
               <item name="CES" type="462c0819:PsiDirectoryNode" />
-              <item name="middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,12 +305,16 @@
       <workItem from="1589385132441" duration="1754000" />
       <workItem from="1589386948629" duration="1791000" />
       <workItem from="1589388761433" duration="1791000" />
-      <workItem from="1589390575405" duration="1606000" />
+      <workItem from="1589390575405" duration="1788000" />
+      <workItem from="1589392390813" duration="656000" />
+      <workItem from="1589394204565" duration="1790000" />
+      <workItem from="1589396020992" duration="313000" />
+      <workItem from="1589435809036" duration="1031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35277000" />
+    <option name="totallyTimeSpent" value="39249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,6 +327,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4960212" visible="true" weight="0.24244833" />
       <window_info id="Structure" order="1" sideWeight="0.5039788" side_tool="true" weight="0.24244833" />
@@ -395,24 +353,26 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
+        <option value="$PROJECT_DIR$/middleware/permission-middleware.js" />
+        <option value="$PROJECT_DIR$/Controller/config-conroller.js" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/Controller/config-conroller.js.map" />
+        <option value="$PROJECT_DIR$/middleware/authentication-middleware.js.map" />
         <option value="$PROJECT_DIR$/main.js.map" />
+        <option value="$PROJECT_DIR$/middleware/authentication-middleware.js" />
+        <option value="$PROJECT_DIR$/Controller/exchange-controller.js.map" />
+        <option value="$PROJECT_DIR$/middleware/permission-middleware.js.map" />
         <option value="$PROJECT_DIR$/../Exchange/Connector/ces-connector.js" />
         <option value="$PROJECT_DIR$/../Exchange/Connector/ces-connector.js.map" />
         <option value="$PROJECT_DIR$/Connector/mongo-connector.js.map" />
         <option value="$PROJECT_DIR$/Connector/db-connector.js.map" />
         <option value="$PROJECT_DIR$/Connector/mongo-connector.js" />
         <option value="$PROJECT_DIR$/Connector/db-connector.js" />
+        <option value="$PROJECT_DIR$/Controller/exchange-controller.js" />
         <option value="$PROJECT_DIR$/Controller/loan-controller.js" />
         <option value="$PROJECT_DIR$/Controller/loan-controller.js.map" />
-        <option value="$PROJECT_DIR$/Controller/exchange-controller.js.map" />
-        <option value="$PROJECT_DIR$/Controller/exchange-controller.js" />
-        <option value="$PROJECT_DIR$/Controller/config-conroller.js" />
-        <option value="$PROJECT_DIR$/Controller/config-conroller.js.map" />
-        <option value="$PROJECT_DIR$/middleware/authentication-middleware.js.map" />
-        <option value="$PROJECT_DIR$/middleware/authentication-middleware.js" />
-        <option value="$PROJECT_DIR$/middleware/permission-middleware.js" />
-        <option value="$PROJECT_DIR$/middleware/permission-middleware.js.map" />
+        <option value="$PROJECT_DIR$/Controller/rob-controller.js" />
+        <option value="$PROJECT_DIR$/Controller/rob-controller.js.map" />
       </list>
     </option>
   </component>
@@ -424,18 +384,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Conversion/exchange-rates-converter.ts</url>
-          <line>10</line>
+          <line>9</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/Controller/exchange-controller.ts</url>
-          <line>19</line>
+          <line>21</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Controller/loan-controller.ts</url>
-          <line>45</line>
-          <option name="timeStamp" value="64" />
+          <url>file://$PROJECT_DIR$/Controller/exchange-controller.ts</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -524,30 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conversion/exchange-rates-converter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -562,29 +499,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/loan-controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middleware/permission-middleware.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="153">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
@@ -596,12 +513,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Exchange/exchange-operator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Connector/mongo-connector.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="170">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conversion/exchange-rates-converter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/loan-controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/rob-controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="3" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/exchange-controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,7 +17,6 @@ class ExchangeRatesConverter {
     Convert(amount, base, target) {
         return __awaiter(this, void 0, void 0, function* () {
             return axios_1.default.get(this.constructUrl(base, target)).then(res => {
-                // TODO: use _.get
                 return res.data['rates'][target.toUpperCase()] * amount;
             }).catch(err => {
                 if (err.response && err.response.status) {
@@ -27,7 +26,6 @@ class ExchangeRatesConverter {
             });
         });
     }
-    // TODO: private
     constructUrl(base, target) {
         return this.apiBaseUrl + `base=${base.toUpperCase()}&symbols=${target.toUpperCase()}`;
     }

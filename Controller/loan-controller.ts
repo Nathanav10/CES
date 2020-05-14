@@ -5,7 +5,6 @@ import {ExchangeOperator} from "../Exchange/exchange-operator";
 import {Converter} from "../Conversion/converter-enum";
 
 export class LoanController {
-    // TODO : reuse mc=connector
     // TODO: export receipt
     StartLoan(req, res) {
         let mc = new MongoConnector();
