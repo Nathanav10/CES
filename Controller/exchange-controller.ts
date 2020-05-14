@@ -1,20 +1,15 @@
-import {ExchangeOperator} from "../Exchange/exchange-operator";
+import {ExchangeService} from "../Services/exchange-service";
 import {Converter} from "../Conversion/converter-enum";
 import {MongoConnector} from "../Connector/mongo-connector";
+import {ReceiptService} from "../Services/receipt-service";
 
 export class ExchangeController {
     Exchange(req, res) {
-        let exchangeOperator = new ExchangeOperator(Converter.ExchangeRates);
+        let exchangeService = new ExchangeService(Converter.ExchangeRates);
         let mc = new MongoConnector();
         mc.GetParamValue("baseCommission").then(commission => {
-            exchangeOperator.Exchange(req.query.amount, req.query.base, req.query.target).then(convertedAmount => {
-                res.send(
-                    `From amount: ${req.query.amount}
-                    From currency: ${req.query.base}
-                    To currency: ${req.query.target}
-                    Commission: ${commission}%
-                    Amount before commission: ${convertedAmount}
-                    Amount: ${convertedAmount / 100.0 * (100 - commission)}\n`)
+            exchangeService.Exchange(req.query.amount, req.query.base, req.query.target).then(convertedAmount => {
+                res.send(ReceiptService.GetExchangeReceipt(req, commission, convertedAmount));
             });
         }).catch(err => {
             res.status(400).send({

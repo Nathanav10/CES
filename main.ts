@@ -21,7 +21,7 @@ let exchangeController = new ExchangeController();
 let configController = new ConfigConroller();
 let loanController = new LoanController();
 // let robController = new RobController();
-
+// TODO: add stire header to rob
 app.get('/exchange', exchangeController.Exchange);
 
 app.put('/config', configController.config);

@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const coverter_factory_1 = require("../Conversion/coverter-factory");
-class ExchangeOperator {
+// TODO: make service
+class ExchangeService {
     constructor(conversionService) {
         this.converter = coverter_factory_1.ConverterFactory.getConverter(conversionService);
     }
@@ -11,5 +12,5 @@ class ExchangeOperator {
         });
     }
 }
-exports.ExchangeOperator = ExchangeOperator;
-//# sourceMappingURL=exchange-operator.js.map
+exports.ExchangeService = ExchangeService;
+//# sourceMappingURL=exchange-service.js.map

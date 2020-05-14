@@ -40,7 +40,7 @@ class MongoConnector {
     InsertLoan(loan) {
         return mongodb_1.MongoClient.connect(this.dbUrl).then(db => {
             let dbo = db.db("loans");
-            dbo.collection("loans").insertOne(loan);
+            return dbo.collection("loans").insertOne(loan);
         });
     }
     GetLoan(loanId) {

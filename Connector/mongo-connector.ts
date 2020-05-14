@@ -42,7 +42,7 @@ export class MongoConnector implements DbConnector {
     InsertLoan(loan) {
         return MongoClient.connect(this.dbUrl).then(db => {
             let dbo = db.db("loans");
-            dbo.collection("loans").insertOne(loan)
+            return dbo.collection("loans").insertOne(loan)
         });
     }
 

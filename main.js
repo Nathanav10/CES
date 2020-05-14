@@ -20,6 +20,7 @@ let exchangeController = new exchange_controller_1.ExchangeController();
 let configController = new config_conroller_1.ConfigConroller();
 let loanController = new loan_controller_1.LoanController();
 // let robController = new RobController();
+// TODO: add stire header to rob
 app.get('/exchange', exchangeController.Exchange);
 app.put('/config', configController.config);
 app.post('/loan', loanController.StartLoan);
