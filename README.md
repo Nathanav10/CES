@@ -1,3 +1,5 @@
+Examples:
+
 config parameter:
 node main.js config -p baseCommission -v 5
 
