@@ -1,7 +1,6 @@
 import {Converter} from "../Conversion/converter-enum";
 import {ConverterFactory} from "../Conversion/coverter-factory";
 
-// TODO: make service
 export class ExchangeService {
     converter: IConverter;
 

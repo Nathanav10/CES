@@ -26,3 +26,4 @@ export function LoanPermissions(req, res, next) {
 export function EndLoanPermissions(req, res, next) {
     CheckPermissions(req, res, next, END_LOAN_PERMISSION);
 }
+

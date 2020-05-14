@@ -5,7 +5,6 @@ export class MongoConnector implements DbConnector {
     dbUrl: string = "mongodb://localhost:27017/";
 
     UpdateParameter(param: string, value: any): Promise<boolean> {
-        //TODO: close db
         return MongoClient.connect(this.dbUrl).then(db => {
             let dbo = db.db("config");
             return dbo.collection("parameters").updateOne({_id: param}, {$set: {value: value}}, {upsert: false}).then(res => {

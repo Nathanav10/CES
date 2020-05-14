@@ -8,7 +8,6 @@ import {ReceiptService} from "../Services/receipt-service";
 export class LoanController {
     StartLoan(req, res) {
         let mc = new MongoConnector();
-        //TODO: export to ctor
         let loanService: LoanService = new LoanService(mc);
         loanService.CreateNewLoan(req).then(newLoan => {
             res.send(ReceiptService.GetNewLoanReceipt(newLoan));

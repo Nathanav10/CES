@@ -7,7 +7,6 @@ const exchange_controller_1 = require("./Controller/exchange-controller");
 const config_conroller_1 = require("./Controller/config-conroller");
 const authentication_middleware_1 = require("./middleware/authentication-middleware");
 const permission_middleware_1 = require("./middleware/permission-middleware");
-// import {RobController} from "./Controller/rob-controller";
 let app = express();
 app.use(bodyParser.json());
 app.use(authentication_middleware_1.Authenticate);
@@ -19,13 +18,10 @@ app.post('/endLoan', permission_middleware_1.EndLoanPermissions);
 let exchangeController = new exchange_controller_1.ExchangeController();
 let configController = new config_conroller_1.ConfigConroller();
 let loanController = new loan_controller_1.LoanController();
-// let robController = new RobController();
-// TODO: add stire header to rob
 app.get('/exchange', exchangeController.Exchange);
 app.put('/config', configController.config);
 app.post('/loan', loanController.StartLoan);
 app.post('/endLoan', loanController.EndLoan);
-// app.get('/rob', robController.Operate);
 let server = app.listen(8081, () => {
     console.log('Server listening');
 });
